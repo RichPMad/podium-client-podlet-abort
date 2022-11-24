@@ -16,3 +16,5 @@ On node 14 this does not happen.
 3. visit http://localhost:7777 , you will a response on the page. refresh the page
 4. shut down the podlet, and run it again. The version changes startup automatically
 5. visit http://localhost:7777 again, and notice the page is empty, as the client resolver.content.js receives an `error` event
+
+Reduce the podlet response size to see it work again on node 16 https://github.com/RichPMad/podium-client-podlet-abort/blob/main/packages/podlet/express.js#L18
