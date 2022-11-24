@@ -1,0 +1,22 @@
+{
+  "name": "podium-client-podlet-abort-podlet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node express.js",
+    "hapi": "node hapi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichPMad/podium-client-podlet-abort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "20.x",
+    "express": "4.x",
+    "@podium/podlet": "4.4.67",
+    "@podium/hapi-podlet": "3.x"
+  }
+}

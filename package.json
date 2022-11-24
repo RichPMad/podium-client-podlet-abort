@@ -1,0 +1,20 @@
+{
+  "name": "podium-client-podlet-abort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "podlet": "npm run -prefix packages/podlet start",
+    "podlet-hapi": "npm run -prefix packages/podlet hapi",
+    "layout": "npm run -prefix packages/layout start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichPMad/podium-client-podlet-abort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ]
+}
