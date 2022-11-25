@@ -1,0 +1,19 @@
+{
+  "name": "podium-client-podlet-abort-layout-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node express-esm.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichPMad/podium-client-podlet-abort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.x",
+    "@podium/layout": "5.0.0-next.9"
+  }
+}

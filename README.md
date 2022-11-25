@@ -18,3 +18,9 @@ On node 14 this does not happen.
 5. visit http://localhost:7777 again, and notice the page is empty, as the client resolver.content.js receives an `error` event
 
 Reduce the podlet response size to see it work again on node 16 https://github.com/RichPMad/podium-client-podlet-abort/blob/main/packages/podlet/express.js#L18
+
+## @podium/layout/client@5
+
+Podium client v5 with undici works! So i will jump to the conclusion its request lib.
+
+- run `npm run layout-esm` instead to test with this version.

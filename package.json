@@ -6,6 +6,7 @@
   "scripts": {
     "podlet": "npm run -prefix packages/podlet start",
     "podlet-hapi": "npm run -prefix packages/podlet hapi",
+    "layout-esm": "npm run -prefix packages/layout-esm start",
     "layout": "npm run -prefix packages/layout start"
   },
   "repository": {
